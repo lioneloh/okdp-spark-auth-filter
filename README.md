@@ -7,6 +7,8 @@
 
 The project consists of two main components:
 
+I did a change !
+
 1. `Authentication filter`: Authenticates the user against an Oauth2/OIDC provider by implementing the [Authorization Code grant flow](https://datatracker.ietf.org/doc/html/rfc6749).
    The filter supports all the providers compliant with Oauth2 and OpenID standards.
 3. `Authorization provider`: An additional optional layer, on top of the `Authentication filter`, authorizes Spark UI/History UI user access 
